@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Titan_Alex</title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Personal website">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <link rel="icon" href="images/favicon.ico">
+
+    <script src="./app.js"></script>
+    <script type="text/javascript">
+ $(document).ready(function(){
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
+</script>
+
+  </head>
+  <body>
+    <!--HEADER-->
+    <header>
+      <div class="wrapper">
+        <div class="header__wrapper">
+          <div id="menu" class="header__navigation">
+            <a href="#about" class="navigation__link">About</a>
+            <a href="#experiense" class="navigation__link">Experiense</a>
+            <a href="#projects" class="navigation__link">Projects</a>
+            <a href="#Contacts" class="navigation__link">Contacts</a>
+          </div>
+
+        </div>
+
+      </div>
+    </header>
+    <main>
+
+    <!--PRESENTATION-->
+    <div id="presentation" class="presentation">
+      <div class="wrapper">
+        <div class="presentation__wrapper">
+          <div class="presentation__background__image"></div>
+          <h1 class="presentation__header">Welcome<span> to me</span></h1>
+        </div>
+      </div>
+    </div>
+
+    <main>
+    <!--ABOUT__LINE
+    <div class="about__line">
+      <div class="wrapper">
+        <div class="about__line__wrapper">
+          <h1 class="about__line__header">About me</h1>
+        </div>
+      </div>
+    </div>-->
+
+    <!--ABOUT__DESCRIPTION-->
+    <div id="about" class="about__description">
+      <div class="wrapper">
+        <div class="about__description__wrapper">
+          <div class="about__description__container">
+            <h1 class="about__description__main__header">Профиль</h1>
+            <div class="about__description__left">
+              <h3 align="right" class="about__description__header">Детали</h3>
+              <p align="right" class="about__description__text">
+                <strong>Имя:</strong>
+                <br>Липин Александр<br>
+                <strong>Возаст:</strong>
+                <br>16 лет<br>
+                <strong>Проживание:</strong>
+                <br>Севастополь, Россия<br>
+            </p>
+            </div>
+            <div class="about__description__center">
+              <div class="about__description__photo"></div>
+            </div>
+            <div class="about__description__right">
+              <h3 class="about__description__header">Привет!</h3>
+              <p class="about__description__text">Lorem ipsum dolor sit amet, consectetur
+                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Scelerisque viverra mauris in aliquam. Pellentesque elit eget gravida cum sociis
+                   natoque penatibus. Sed enim ut sem viverra. Lacus suspendisse faucibus interdum posuere lorem.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!--EXPERIENCE-->
+    <div id="experiense" class="experiense">
+      <div class="wrapper">
+        <div class="experiense__wrapper">
+          <h1 class="experiense__main__header">Образование</h1>
+          <p class="experiense__main__text">Lorem ipsum dolor sit amet, consectetur
+               adipiscing elit, sed do eiusmod tempor incididunt</p>
+          <div class="ln"></div>
+
+          <div class="experiense1">
+            <div class="left__container__experiense">
+              <h4>Something there</h4>
+              <p class="experiense_period">moth 2018 - moth 2019</p>
+            </div>
+            <div class="right__container__experiense">
+              <h4>Course</h4>
+              <p>
+                <span class="right__container__experiense__text">Lorem ipsum dolor sit amet, consectetur
+                   adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Scelerisque viverra mauris in aliquam. Pellentesque elit eget gravida cum sociis
+                     natoque penatibus. Sed enim ut sem viverra. Lacus suspendisse faucibus interdum posuere lorem.</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="experiense1">
+            <div class="left__container__experiense">
+              <h4>Something there</h4>
+              <p class="experiense_period">moth 2018 - moth 2019</p>
+            </div>
+            <div class="right__container__experiense">
+              <h4>Course</h4>
+              <p>
+                <span class="right__container__experiense__text">Lorem ipsum dolor sit amet, consectetur
+                   adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Scelerisque viverra mauris in aliquam. Pellentesque elit eget gravida cum sociis
+                     natoque penatibus. Sed enim ut sem viverra. Lacus suspendisse faucibus interdum posuere lorem.</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="experiense1">
+            <div class="left__container__experiense">
+              <h4>Something there</h4>
+              <p class="experiense_period">moth 2018 - moth 2019</p>
+            </div>
+            <div class="right__container__experiense">
+              <h4>Course</h4>
+              <p>
+                <span class="right__container__experiense__text">Lorem ipsum dolor sit amet, consectetur
+                   adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Scelerisque viverra mauris in aliquam. Pellentesque elit eget gravida cum sociis
+                     natoque penatibus. Sed enim ut sem viverra. Lacus suspendisse faucibus interdum posuere lorem.</span>
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!--ABOUT__LINE
+    <div class="about__line">
+      <div class="wrapper">
+        <div class="about__line__wrapper">
+          <h1 class="about__line__header">Projects</h1>
+        </div>
+      </div>
+    </div>-->
+
+
+    <!--PROJECTS-->
+    <div id="projects" class="projects">
+      <div class="wrapper">
+        <div class="projects__wrapper">
+          <h1 class="projects__main__header">Мои работы</h1>
+          <p class="projects__main__text">Здесь вы можете познакомиться с проектами, которые я выполнил</p>
+          <div class="ln"></div>
+        </div>
+      </div>
+    </div>
+
+
+    </main>
+
+
+    <!--FOOTER-->
+    <footer>
+      <div id="Contacts" class="contacts">
+        <div class="wrapper">
+          <div class="contacts__wrapper">
+              <h1 class="contacts__header">Контакты</h1>
+              <p class="contacts__text">Связаться со мной вы можете следующим образом...</p>
+              <div class="ln"></div>
+            <div class="contacts__links">
+              <div class="left__box">
+                <div class="li">
+                <a class="VK" target="_blank" href="https://vk.com/titanalex05"><img class="contacts_icon" src="images/VK_img1.png" alt="ERROR ">https://vk.com/titanalex05</a></div>
+                <div class="li"><a class="Discord"><img class="contacts_icon" src="images/discord_png2.png" alt="ERROR ">[🌧]Titan alex#7819</a></div>
+              </div>
+              <div class="right__box">
+                <div class="li">
+                <a class="mail.ru" target="_blank" href="https://e.mail.ru/inbox/?utm_source=portal&utm_medium=new_portal_navigation&utm_campaign=e.mail.ru&mt_sub5=28&mt_sub1=mail.ru&mt_click_id=mt-y7s979-1649271576-1887365034">
+                  <img class="contacts_icon" src="images/mail_ru1.png" alt="ERROR ">titan_alex05@mail.ru</a>
+                </div>
+                <div class="li">
+                <a class="mail.ru" target="_blank" href="https://e.mail.ru/inbox/?utm_source=portal&utm_medium=new_portal_navigation&utm_campaign=e.mail.ru&mt_sub5=28&mt_sub1=mail.ru&mt_click_id=mt-y7s979-1649271576-1887365034">
+                  <img class="contacts_icon" src="images/number_phone_img.png" alt="ERROR ">+7 978 290 51 24</a>
+                </div>
+              </div>
+           </div>
+           <div class="ln"></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+  </body>
+</html>
